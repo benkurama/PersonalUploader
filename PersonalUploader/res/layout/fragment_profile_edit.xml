@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/etProfileFirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="First name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etProfileMiddlename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="Middle name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etProfileLastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="Last name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etProfileAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="textPersonName|number" />
+
+            <EditText
+                android:id="@+id/etProfileEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etProfileAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etProfileNotes"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:gravity="center_vertical|left|top"
+                android:hint="Notes"
+                android:inputType="textMultiLine|textPersonName" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select an Image:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/btnSelectImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="click here" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_margin="10dp"
+                android:background="#aaa" />
+
+            <Button
+                android:id="@+id/btnUpdateProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Profile" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

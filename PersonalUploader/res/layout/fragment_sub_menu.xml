@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/backgradient_menu_header01" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:text="Profile View"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btnProfileEdit"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="Edit" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/tvHomepageUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Name:"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/tvProfileFirstname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#ccc" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Middle Name:"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/tvProfileMiddlename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <View
+                    android:id="@+id/View01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#ccc" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last Name:"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/tvProfileLastname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <View
+                    android:id="@+id/View02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#ccc" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age :"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/tvProfileAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <View
+                    android:id="@+id/View03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#ccc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email Address:"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/tvProfileEmailAd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <View
+                    android:id="@+id/View04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#ccc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address:"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/tvProfileAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <View
+                    android:id="@+id/View05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#ccc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notes:"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/tvProfileNotes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <View
+                    android:id="@+id/View06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#ccc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/tvProfileDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date Create:"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/tvProfileDateCreate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <View
+                    android:id="@+id/View07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#ccc" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PersonalUploader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="app_id">233936543368280</string>
+    
+    <string name="app_idko">792381624127279</string>
+    
+    <string name="PersonalUploaderAbout">Personal Uploader is a pesonal use for uploading event that is
+        not ordinary or amazing event. \n\nInstantly preserved the event to the databank and its details, it can
+        access again and analyzed the event. \n\nSwipe to the left for the category list and select what task you made.</string>
+
+</resources>

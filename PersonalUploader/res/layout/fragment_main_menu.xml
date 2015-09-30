@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32394b"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/backgradient_menu_header01"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/tvHomepageUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="Menu Options"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#fff" />
+
+            </RelativeLayout>
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                layout="@layout/view_separator" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+                
+                <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/facebook_profile_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_horizontal"
+                    facebook:preset_size="small" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/tvUserName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:text="User Name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#fff" />
+
+                </RelativeLayout>
+                
+            </LinearLayout>
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_hover"
+                android:drawableLeft="@drawable/logout"
+                android:drawablePadding="5dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:paddingLeft="15dp"
+                android:text="Logout"
+                android:textColor="#fff" />
+
+            <com.facebook.widget.LoginButton
+                android:id="@+id/btnFacebookLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                layout="@layout/view_separator" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#515d7a" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:text="Navigation"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#fff" />
+
+            </RelativeLayout>
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/BtnMenuEvent"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_hover"
+                android:drawableLeft="@drawable/event"
+                android:drawablePadding="5dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:paddingLeft="15dp"
+                android:text="Event Viewer"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                layout="@layout/view_separator" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

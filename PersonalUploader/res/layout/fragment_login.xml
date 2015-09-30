@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/border01"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Login Module"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/etLoginUserID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User ID"
+                android:inputType="textPersonName" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/etLoginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvHomepageUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="or login using facebook"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </RelativeLayout>
+
+            <com.facebook.widget.LoginButton
+                android:id="@+id/btnFacebookLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
